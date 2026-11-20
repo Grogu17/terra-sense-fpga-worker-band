@@ -154,43 +154,43 @@ The simulation uses shorter testbench timing parameters to make verification fas
 
 ## Simulation Waveforms
 
-The following waveforms demonstrate packet reception, CRC validation, safety-state transitions, watchdog operation, and emergency SOS reporting.
+The following waveforms demonstrate the functional verification of the FPGA-based worker safety band.
 
-### 1. UART Reception and CRC Validation
+### 1. UART Reception and Packet Validation
 
-![UART Reception and CRC Validation](images/01_uart_crc_validation.png)
+![UART Reception and Packet Validation](images/UART%20reception%20and%20packet%20validation.png)
 
-### 2. Safety FSM Transitions
+### 2. Safety FSM and Alert Outputs
 
-![Safety FSM Transitions](images/02_safety_fsm_transitions.png)
+![Safety FSM and Alert Outputs](images/Safety%20FSM%20and%20alert%20outputs.png)
 
 ### 3. Watchdog and Communication Loss
 
-![Watchdog Communication Loss](images/03_watchdog_comm_loss.png)
+![Watchdog and Communication Loss](images/Watchdog%20and%20communication%20loss.png)
 
 ### 4. Local SOS Activation
 
-![Local SOS Activation](images/04_local_sos_activation.png)
+![Local SOS Activation](images/Local%20SOS%20activation.png)
 
 ### 5. SOS UART Location Report
 
-![SOS UART Location Report](images/05_sos_uart_location_report.png)
+![SOS UART Location Report](images/SOS%20UART%20location%20report.png)
 
-## FPGA Hardware Demonstration
+## FPGA Hardware Demonstrations
 
-The following videos demonstrate the implementation on the physical FPGA board.
+The following videos demonstrate the FPGA implementation on the physical hardware.
 
-### 1. Complete FPGA Worker Band Demonstration
+### 1. Complete FPGA Worker Safety Band Demonstration
 
 [▶ Watch Complete FPGA Demonstration](demo/complete_fpga_demo.mp4)
 
-Demonstrates the overall worker safety band operation, including status display and safety alerts.
+Demonstrates the overall worker safety band functionality, including OLED status display and safety alerts.
 
 ### 2. Emergency SOS Button Demonstration
 
-[▶ Watch SOS Button Demonstration](demo/sos_button_demo.mp4)
+[▶ Watch SOS Emergency Demonstration](demo/sos_emergency.mp4)
 
-Demonstrates local SOS activation and the emergency reporting functionality.
+Demonstrates local SOS activation and emergency reporting functionality.
 
 ## Repository Structure
 
